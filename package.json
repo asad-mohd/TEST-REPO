@@ -1,0 +1,16 @@
+{
+  "name": "test-repo",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "This is a repo to test the submodule concept",
+  "main": "Check.js",
+  "devDependencies": {},
+  "scripts": {
+    "run:script": "node ./Check.js"
+  },
+  "keywords": [
+    "xyxz"
+  ],
+  "author": "Asad",
+  "license": "ISC"
+}

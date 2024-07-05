@@ -1,5 +1,7 @@
+import data from "../TEST-REPO/Submodule-repo/code.js"
+
 function Con() {
-  console.log("hello i am main repo");
+  console.log(data);
 }
 Con();
 
@@ -7,3 +9,4 @@ Con();
 function Con1() {
   console.log("hello i am main repo second func");
 }
+Con1();
