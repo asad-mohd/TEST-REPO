@@ -1,7 +1,10 @@
 import data from "../TEST-REPO/Submodule-repo/code.js"
 
 function Con() {
-  console.log(data);
+  const value= data.fun
+  const obj= data.obj
+  console.log(value);
+  console.log(obj);
 }
 Con();
 
